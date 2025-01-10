@@ -6,7 +6,7 @@ n.color('red')
 n.left(90)
 
 n.backward(100)
-n.speed(200)
+n.speed(100)
 n.shape('turtle')
 
 def tree(i):
