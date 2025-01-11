@@ -56,7 +56,7 @@
     overflow: hidden;
 }
 
-body{ 
+/*body{ 
     margin: 0;
     display: flex;
     justify-content: center;
@@ -108,4 +108,4 @@ button:active{
 }
 .button-op:active {
     background-color: hsl(35, 100%, 75%)
-}
+}*/
