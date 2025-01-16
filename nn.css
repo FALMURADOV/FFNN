@@ -1,0 +1,62 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7ac97a;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Hover Effect for Links */
+.nav-links li a:hover {
+    transition: background-color 0.3 ease;;
+    padding: 10px;
+    background-color: #217009;
+    color: white; /* Change to your preferred hover color */
+    transition: all 0.2s ease-in-out;
+
+
+}
+
+/* General styling for sections */
+.main {
+    display: flex;
+    font-size:large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 0.5px solid #000; /* Solid black border */
+    padding: 20px;           /* Padding inside the section */
+    margin-bottom: 20px;     /* Space between sections */
+    border-radius: 15px;      /* Optional: Rounded corners for softer look */
+    width: 80%;               /* Set the container width (can adjust as needed) */
+    margin: 0 auto;           /* Center it horizontally */
+    margin-top: 50px;
+  }
+  
+  h2 {
+    margin-top: 0;           /* Remove top margin for cleaner header */
+    color: #217009;
+  }
+  
